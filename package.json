@@ -89,22 +89,6 @@
             }
         },
         "custom": {
-            "title_font": {
-                "type": "select",
-                "options": [
-                    "Modern sans-serif",
-                    "Elegant serif"
-                ],
-                "default": "Modern sans-serif"
-            },
-            "body_font": {
-                "type": "select",
-                "options": [
-                    "Modern sans-serif",
-                    "Elegant serif"
-                ],
-                "default": "Elegant serif"
-            },
             "publication_cover_style": {
                 "type": "select",
                 "options": [
@@ -124,15 +108,6 @@
                 ],
                 "default": "Dynamic grid",
                 "group": "homepage"
-            },
-            "color_scheme": {
-                "type": "select",
-                "options": [
-                    "Light",
-                    "Dark",
-                    "Auto"
-                ],
-                "default": "Light"
             },
             "header_button_background": {
                 "type": "color",
