@@ -694,7 +694,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     flex: 1 1 50%;
     display: flex;
     flex-direction: column;
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
     color: #000000;
     font-size: 1.4rem;
     line-height: 1.2em;
@@ -2187,3 +2187,21 @@ file to add some of your own styles. Well, you've come to
 the right place. Onward!
 
  */
+
+.tw-brush {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+}
+
+.tw-brush img {
+    width: 200px;
+}
+
+@media (max-width: 600px) {
+    .tw-brush {
+        top: 50px;
+        right: 0px;
+        left: auto;
+    }
+}

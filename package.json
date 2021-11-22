@@ -1,8 +1,8 @@
 {
     "name": "typewriter",
     "description": "A clean, minimal typewriter theme for the Ghost publishing platform",
-    "demo": "https://demo.ghost.io",
-    "version": "1.0.0",
+    "demo": "https://jakecurreri.com",
+    "version": "1.0.1",
     "engines": {
         "ghost": ">=4.0.0",
         "ghost-api": "v4"

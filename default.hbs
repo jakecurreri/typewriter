@@ -39,7 +39,6 @@
 </head>
 <body class="{{body_class}}{{#match @custom.title_font "=" "Elegant serif"}} has-serif-title{{/match}}{{#match @custom.body_font "=" "Modern sans-serif"}} has-sans-body{{/match}}">
 <div class="viewport">
-
     <header id="gh-head" class="gh-head{{#match @custom.publication_cover_style "!=" "None"}} has-cover{{/match}}">
         <nav class="gh-head-inner inner gh-container">
 
@@ -80,6 +79,10 @@
     </header>
 
     <div class="site-content">
+        <div class="tw-brush">
+            <img src="/assets/calligraphy_brushes_16.png" />
+        </div>
+
         {{!-- All other templates get inserted here, index.hbs, post.hbs, etc --}}
         {{{body}}}
     </div>
@@ -87,7 +90,6 @@
     {{!-- The global footer at the very bottom of the screen --}}
     <footer class="site-footer outer">
         <div class="inner">
-            <section class="copyright"><a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}</section>
             <nav class="site-footer-nav">
                 {{navigation type="secondary"}}
             </nav>
