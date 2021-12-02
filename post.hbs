@@ -21,7 +21,9 @@ into the {body} tag of the default.hbs template --}}
             <div class="article-byline">
                 <section class="article-byline-content">
                     <div class="article-byline-meta">
+                        {{#if @custom.show_author_name}}
                         <h4 class="author-name">{{authors}}</h4>
+                        {{/if}}
                         <div class="byline-meta-content">
                             <time class="byline-meta-date" datetime="{{date format="MM/DD/YYYY"}}">{{date}}</time>
                         </div>
