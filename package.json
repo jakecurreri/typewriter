@@ -155,6 +155,11 @@
                 "type": "boolean",
                 "default": true,
                 "group": "post"
+            },
+            "show_post_date": {
+                "type": "boolean",
+                "default": true,
+                "group": "post"
             }
         }
     },

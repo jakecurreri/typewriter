@@ -26,7 +26,9 @@ which templates loop over to generate a list of posts. --}}
             {{#if @custom.show_author_name}}
             <span>{{#has author="count:>2"}}Multiple authors{{else}}{{authors}}{{/has}}</span>
             {{/if}}
+            {{#if @custom.show_post_date}}
             <span class="post-card-byline-date"><time datetime="{{date format=" MM/DD/YYYY"}}">{{date}}</time></span>
+            {{/if}}
         </div>
 
         <a class="post-card-content-link" href="{{url}}">

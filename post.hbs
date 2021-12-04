@@ -24,9 +24,11 @@ into the {body} tag of the default.hbs template --}}
                         {{#if @custom.show_author_name}}
                         <h4 class="author-name">{{authors}}</h4>
                         {{/if}}
+                        {{#if @custom.show_post_date}}
                         <div class="byline-meta-content">
                             <time class="byline-meta-date" datetime="{{date format="MM/DD/YYYY"}}">{{date}}</time>
                         </div>
+                        {{/if}}
                     </div>
                 </section>
             </div>
