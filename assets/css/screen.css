@@ -58,6 +58,14 @@ production stylesheet in assets/built/screen.css
 
 }
 
+@font-face {
+    font-family: 'Special Elite';
+    src: url('../fonts/SpecialElite-Regular.ttf');
+}
+
+body {
+    font-family: 'Special Elite', cursive;
+}
 
 /* 2. Layout - Page building blocks
 /* ---------------------------------------------------------- */
@@ -1471,8 +1479,9 @@ Ghost editor. */
 
 .footer-cta {
     position: relative;
+    margin-top: 80px;
     margin-bottom: -40px;
-    padding: 9vmin 4vmin 10vmin;
+    padding: 9vmin 4vmin 2vmin;
     color: #000000;
     text-align: center;
     background: inherit;
